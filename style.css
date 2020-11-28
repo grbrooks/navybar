@@ -16,7 +16,7 @@ nav{
 section.sec1{
     width: 100%;
     height: 100vh;
-    background-image: url(enterprise.jpg);
+    background-image: url('/image/enterprise.jpg');
     background-size: color;
     background-position: center;
 }
@@ -24,6 +24,7 @@ section.sec1{
     margin-top: 80px;
 }
 .content p{
+    color: blue;
     width: 900px;
     margin: 30px auto;
     text-align: justify;
@@ -32,11 +33,7 @@ section.sec1{
 
 }
 nav .logo{
-    padding: 22px 20px;
-    height: 80px;
-    float: left;
-    font-size: 24px;
-    transition: .3;
+    width: 20px;
 }
 nav ul{
     list-style: none;
@@ -50,7 +47,7 @@ nav ul li{
 }
 nav ul li a{
     line-height: 80px;
-    color: #151515;
+    color: blue;
     padding: 12px 30px;
     text-decoration: none;
     text-transform: uppercase;
